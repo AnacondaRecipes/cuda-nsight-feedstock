@@ -16,7 +16,7 @@ source:
 
 build:
   number: 1
-  skip: true  # [aarch64 or osx or win or (linux and s390x)]
+  skip: true  # [osx or win or (linux and (aarch64 or s390x))]
 
 requirements:
   host:
