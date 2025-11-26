@@ -2,7 +2,6 @@
 {% set version = "13.0.85" %}
 {% set cuda_version = "13.0" %}
 {% set platform = "linux-x86_64" %}  # [linux64]
-{% set platform = "linux-ppc64le" %}  # [ppc64le]
 {% set extension = "tar.xz" %}  # [not win]
 
 package:
@@ -41,7 +40,10 @@ about:
     development environment (IDE) for developing CUDA applications for
     the x86, POWER and ARM platforms.
   doc_url: https://developer.nvidia.com/nsight-eclipse-edition
+  dev_url: https://developer.nvidia.com/nsight-eclipse-edition
 
 extra:
+  skip-lints:
+    - license_file_overspecified
   recipe-maintainers:
     - conda-forge/cuda
