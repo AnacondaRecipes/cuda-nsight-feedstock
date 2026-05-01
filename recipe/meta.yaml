@@ -34,6 +34,7 @@ about:
   license_file: LICENSE
   license: LicenseRef-NVIDIA-End-User-License-Agreement
   license_url: https://docs.nvidia.com/cuda/eula/index.html
+  license_family: Other
   summary: A unified CPU plus GPU IDE for developing CUDA applications
   description: |
     NVIDIA Nsight Eclipse Edition is a unified CPU plus GPU integrated
@@ -43,7 +44,5 @@ about:
   dev_url: https://developer.nvidia.com/nsight-eclipse-edition
 
 extra:
-  skip-lints:
-    - license_file_overspecified
   recipe-maintainers:
     - conda-forge/cuda
